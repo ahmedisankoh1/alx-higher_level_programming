@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
+    """A that prints the result of all the arguments passed"""
     import sys
-    result = 0
 
+    result = 0
     arg_len = len(sys.argv) - 1
     if arg_len == 0 or arg_len == 1:
         print("0")

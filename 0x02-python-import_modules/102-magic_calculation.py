@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 def magic_calculation(a, b):
-    """Mimicing bytecode provided by ALX."""
     from magic_calculation_102 import add, sub
 
     if a < b:
