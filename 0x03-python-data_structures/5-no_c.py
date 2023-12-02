@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 def no_c(my_string):
-    char_to_remove = "cC"
-    new_string = ''.join(char for char in my_string if char not in char_to_remove)
+    new_string = my_string.translate({ord(i): None for i in 'cC'})
     return (new_string)
 
